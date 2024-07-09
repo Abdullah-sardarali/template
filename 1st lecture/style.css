@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilory;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: #82616d;
+    display: flex;
+}
+#mtext h1{
+    user-select: none;
+    white-space: nowrap;
+     font-size: 9vw;
+     font-family: voyage;
+     font-weight: 100;
+     line-height: 1;
+}
+#mtext h3{
+    user-select: none;
+    white-space: nowrap;
+     font-size: 5vw;
+     font-family: voyage;
+     font-weight: 100;
+     line-height: 1;
+}
+#mtext{
+    position: absolute;
+    top: 40%;
+    left: 58%;
+    transform: translate(-50%,-50%);
+    color: red;
+    z-index: 9999;
+}
+#left{
+    position: relative;
+    width: 45%;
+    height: 100%;
+
+   
+}
+#nav{
+    display: flex;
+    color: #fff;
+    align-items: center;
+    width: 100%;
+    padding: 50px 60px;
+    gap: 100px;
+}
+#nav h1{
+    font-weight: 700;
+    font-size: 30px;
+}
+#nav a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+}
+#text #parts{
+    width: 50%;
+    
+    
+}
+#parts h5{
+    margin-bottom: 20px;
+    color: blue;
+    font-size: 20px;
+}
+#text #para{
+    width: 100%;
+    
+    
+} 
+#para p{
+    font-size: 15px;
+    color: white;
+    font-size: 20px;
+    line-height: 25px;
+}
+#center{
+    width: 50%;
+    height: 100%;
+    background-image: url(https://i.pinimg.com/236x/3f/6b/7e/3f6b7e3bc8368ec1d77fe2a26470dbcc.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#right{
+    width: 5%;
+    height: 100%;
+    
+}
+#centerimg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 40%;
+    height: 50%;
+    background-image: url(https://i.pinimg.com/236x/b0/43/64/b04364a0b13dfc7a5b9da24a636cfd6d.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#centerimg #text{
+    display: flex;
+    position: absolute;
+    top: 110%;
+    width: 100%;
+}
+#relem{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 70%;
+     padding: 30px 0;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+#relem #rlink{
+    transform:translateY(50px) rotate(90deg);
+    display: flex;
+    gap: 50px;
+}
+#rlink a{
+     color: #fff;
+     text-decoration: none;
+     font-weight: 400;
+     font-size: 14px;
+}
